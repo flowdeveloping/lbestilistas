@@ -89,3 +89,25 @@ html, body {
   
   .footer-dark .item.social {
     text-align: center; }
+
+
+/*****************************************************************************************/
+/******************************MEDIA QUERY******************************/
+
+@media (max-width: 991px) {
+  .card p  {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 667px) {
+  .card p  {
+    font-size: 20px;
+  }
+}
+@media (max-width: 483px) {
+  .card p  {
+    font-size: 10px;
+    
+  }
+}
