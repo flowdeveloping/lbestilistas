@@ -1,0 +1,91 @@
+/****************GENERAL****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****************NAV LOGO****************/
+
+.containerLogo {
+    text-align: center;
+}
+
+/****************NAVEGADOR****************/
+
+.contenedorNavegador {
+    background-color: #E4D0C2;
+   
+}
+
+.contenedorNavegador a {
+    margin-right: 4rem;
+    margin-left: 5rem;
+    color: #4F3F2A;
+}
+
+
+/****************PORTADA****************/
+
+.card p {
+    text-align: center;
+    color: #4F3F2A;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 3rem;
+
+}
+
+/******************FOOTER******************/
+
+.contenedorInfo {
+    display: flex;
+    background-color: #595B5C;
+    color: #fff;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.contenedorParrafo {
+    margin-top: 20px;
+}
+.footer-dark {
+/*     margin-top: 50px;
+ */    
+    padding: 35px 0;
+    color: #f0f9ff;
+    background-color: #282d32; 
+    text-align: center;}
+
+    .footer-dark .item.social > a {
+      font-size: 20px;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 60%;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+      margin: 0 8px;
+      margin-top: 30px;
+      color: #fff;
+      opacity: 0.75; }
+      .footer-dark .item.social > a:hover {
+        opacity: 0.9; }
+    .footer-dark .copyright {
+      text-align: center;
+      padding-top: 24px;
+      opacity: 0.3;
+      font-size: 13px;
+      margin-bottom: 0; }
+  
+  .footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0; }
+  
+  .footer-dark .item.social {
+    text-align: center; }
