@@ -176,6 +176,40 @@ h2 {
   .contenedorInfo {
     flex-direction: column;
   }
+  .cardCarrusel {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+  }
+  .fotosEstilistas {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background-color: #E4D0C2;
+    border: none;
+    color: #4F3F2A;
+    font-size: 18px;
+    padding: 10px 10px;
+  
+  }
+}
+
+
+@media (max-width: 770px) {
+  
+  
+  .btn {
+    background-color: #E4D0C2;
+    border: none;
+    color: #4F3F2A;
+    font-size: 16px;
+    padding: 10px 5px;
+  
+  }
 }
 
 @media (max-width: 667px) {
@@ -186,9 +220,18 @@ h2 {
   .contenedorInfo {
     flex-direction: column;
   }
+  .btn {
+    background-color: #E4D0C2;
+    border: none;
+    color: #4F3F2A;
+    font-size: 12px;
+    padding: 5px 5px;
+  
+  }
+
 }
 
-@media (max-width: 483px) {
+@media (max-width: 485px) {
   .card p {
     font-size: 10px;
 
@@ -196,5 +239,43 @@ h2 {
 
   .contenedorInfo {
     flex-direction: column;
+  }
+  .btn {
+    background-color: #E4D0C2;
+    border: none;
+    color: #4F3F2A;
+    font-size: 10px;
+    padding: 4px 4px;
+  
+  }
+}
+
+@media (max-width: 435px) {
+  
+  .btn {
+    background-color: #E4D0C2;
+    border: none;
+    color: #4F3F2A;
+    font-size: 8px;
+    padding: 4px 25px;
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+
+@media (max-width: 350px) {
+  
+  .btn {
+    background-color: #E4D0C2;
+    border: none;
+    color: #4F3F2A;
+    font-size: 6px;
+    padding: 4px 20px;
+    display: flex;
+    justify-content: center;
+   
+    
+    
   }
 }
